@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+    
+        <record id="bodega_kardex_report" model="ir.actions.report">
+            <field name="name">Kardex Report</field>
+            <field name="model">kardex.report.wizard</field>
+            <field name="report_type">xlsx</field>
+            <field name="report_name">denteco_02_bodega_kardex_report.kardex_report</field>
+            <field name="report_file">denteco_02_bodega_kardex_report.kardex_report</field>
+            <field name="print_report_name">'Kardex Report'</field>
+        </record>
+    
+    </data>
+    
+
+</odoo>

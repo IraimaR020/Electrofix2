@@ -1,0 +1,231 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* denteco_02_bodega_kardex_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-29 04:36+0000\n"
+"PO-Revision-Date: 2023-08-29 04:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.actions.report,print_report_name:denteco_02_bodega_kardex_report.bodega_kardex_report
+msgid "'Kardex Report'"
+msgstr ""
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model.fields,field_description:denteco_02_bodega_kardex_report.field_stock_picking_type__alias
+msgid "Alias"
+msgstr ""
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Balance"
+msgstr "Saldo"
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Brand: "
+msgstr "Marca: "
+
+#. module: denteco_02_bodega_kardex_report
+#: model_terms:ir.ui.view,arch_db:denteco_02_bodega_kardex_report.denteco_02_bodega_kardex_report_wizard_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model.fields,field_description:denteco_02_bodega_kardex_report.field_kardex_report_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model.fields,field_description:denteco_02_bodega_kardex_report.field_kardex_report_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Delivery to"
+msgstr "Entregado a"
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model.fields,field_description:denteco_02_bodega_kardex_report.field_kardex_report_wizard__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Document"
+msgstr "Documento"
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Effective Date"
+msgstr "Fecha efectiva"
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model.fields,field_description:denteco_02_bodega_kardex_report.field_kardex_report_wizard__end_date
+msgid "End Date"
+msgstr "Fecha final"
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model.fields,field_description:denteco_02_bodega_kardex_report.field_kardex_report_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Inputs"
+msgstr "Entradas"
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "KARDEX REPORT"
+msgstr "REPORTE DE KARDEX"
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.ui.menu,name:denteco_02_bodega_kardex_report.menu_denteco_02_bodega_kardex_report
+msgid "Kardex"
+msgstr ""
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.actions.act_window,name:denteco_02_bodega_kardex_report.action_kardex_report_open_wizard
+#: model:ir.actions.report,name:denteco_02_bodega_kardex_report.bodega_kardex_report
+#: model:ir.model,name:denteco_02_bodega_kardex_report.model_kardex_report_wizard
+#: model_terms:ir.ui.view,arch_db:denteco_02_bodega_kardex_report.denteco_02_bodega_kardex_report_wizard_form
+msgid "Kardex Report"
+msgstr "REPORTE DE KARDEX"
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model.fields,field_description:denteco_02_bodega_kardex_report.field_kardex_report_wizard____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model.fields,field_description:denteco_02_bodega_kardex_report.field_kardex_report_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model.fields,field_description:denteco_02_bodega_kardex_report.field_kardex_report_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Location Of Destination"
+msgstr "Ubicación de Destino"
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Location Of Origin"
+msgstr "Ubicación de Origen"
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Note"
+msgstr "Nota"
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Outputs"
+msgstr "Salidas"
+
+#. module: denteco_02_bodega_kardex_report
+#: model_terms:ir.ui.view,arch_db:denteco_02_bodega_kardex_report.denteco_02_bodega_kardex_report_wizard_form
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model.fields,field_description:denteco_02_bodega_kardex_report.field_kardex_report_wizard__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Product Code : "
+msgstr ""
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Receive from"
+msgstr "Recibido de"
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Responsible"
+msgstr "Responsable"
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model.fields,field_description:denteco_02_bodega_kardex_report.field_kardex_report_wizard__start_date
+msgid "Start Date"
+msgstr "Fecha inicial"
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model,name:denteco_02_bodega_kardex_report.model_stock_picking
+msgid "Stock Picking"
+msgstr ""
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model,name:denteco_02_bodega_kardex_report.model_stock_picking_type
+msgid "Stock Picking Type"
+msgstr "Tipo de albarán"
+
+#. module: denteco_02_bodega_kardex_report
+#. odoo-python
+#: code:addons/denteco_02_bodega_kardex_report/report/kardex_report.py:0
+#, python-format
+msgid "Type Of Operation"
+msgstr "Tipo de Operación"
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model.fields,field_description:denteco_02_bodega_kardex_report.field_kardex_report_wizard__warehouse
+msgid "Warehouse"
+msgstr "Bodega"
+
+#. module: denteco_02_bodega_kardex_report
+#: model:ir.model,name:denteco_02_bodega_kardex_report.model_report_denteco_02_bodega_kardex_report_kardex_report
+msgid "report.denteco_02_bodega_kardex_report.kardex_report"
+msgstr ""

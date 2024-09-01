@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="denteco_02_bodega_kardex_report_wizard_form" model="ir.ui.view">
+            <field name="name">kardex.report.wizard.form</field>
+            <field name="model">kardex.report.wizard</field>
+            <field name="arch" type="xml">
+            <form string="Kardex Report">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="start_date"/>
+                            <field name="product_id" />
+                        </group>
+                        <group>
+                            <field name="end_date"/>
+                            <field name="warehouse" required="1"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <button name="print_kardex_report_xls" string="Print" type="object" class="btn-primary" data-hotkey="q"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel" data-hotkey="z" />
+                    </footer>
+                </sheet>
+            </form>
+            </field>
+        </record>
+        <record id="action_kardex_report_open_wizard" model="ir.actions.act_window">
+            <field name="name">Kardex Report</field>
+            <field name="res_model">kardex.report.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="denteco_02_bodega_kardex_report.denteco_02_bodega_kardex_report_wizard_form"/>
+            <field name="target">new</field>
+        </record>
+
+    </data>
+</odoo>

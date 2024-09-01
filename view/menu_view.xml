@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+       <menuitem id="menu_denteco_02_bodega_kardex_report" name="Kardex" parent="stock.menu_warehouse_report" sequence="101" action="action_kardex_report_open_wizard"/>
+    </data>
+</odoo>
